@@ -1,0 +1,125 @@
+/*h2 {*/
+/*    color: #003c44;*/
+/*    text-align: center;*/
+/*}*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+table.styleForTable {
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table.styleForTable th {
+    font-weight: normal;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #354251;
+}
+
+table.styleForTable td {
+
+    font-size: 15px;
+    color: #354251;
+}
+
+table.styleForTable td, table.iksweb th {
+    white-space: -moz-pre-wrap;
+    padding: 5px 5px;
+    line-height: 13px;
+    vertical-align: middle;
+    border: 1px solid #354251;
+}
+
+table.styleForTable tr:hover {
+    background-color: #f2f2f2
+}
+
+table.styleForTable tr:hover td {
+    color: #354251;
+    cursor: default;
+}
+
+
+#buttonAdd {
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+}
+
+#buttonBack {
+    margin: 8px auto 0;
+    display: block;
+    font-size: 15px;
+}
+
+#buttonBack2 {
+    margin: 8px auto 0;
+    display: block;
+    font-size: 15px;
+}
+
+
+#pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zoom {
+    transition: 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.6);
+}
+
+.zoom:not(:hover) {
+    transition: 0.2s;
+}
+
+
+.multiselect {
+    width: 100px;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100px;
+    font-weight: bold;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+}
+
+#checkboxes label {
+    display: block;
+}
+
+#checkboxes label:hover {
+    background-color: #1e90ff;
+}
+
+
+
+
