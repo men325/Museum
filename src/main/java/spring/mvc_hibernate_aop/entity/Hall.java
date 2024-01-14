@@ -30,7 +30,7 @@ public class Hall {
     @JoinColumn(name = "museum_id")
     private Museum museum;
 
-    @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.DETACH, CascadeType.REFRESH, CascadeType.MERGE}, mappedBy = "hall")
+    @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.DETACH, CascadeType.REFRESH, CascadeType.MERGE}, mappedBy = "hall", fetch = FetchType.EAGER)
     private List <Showpiece> showpieceList;
 
     @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.DETACH, CascadeType.REFRESH})

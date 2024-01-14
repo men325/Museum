@@ -7,14 +7,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
     <link rel="stylesheet" href="<c:url value="/resources/css/halls_style.css"/>">
-    <link rel="shortcut icon" href="<c:url value="/resources/css/museum.png"/>" type="image/x-icon">
+    <link rel="shortcut icon" href="<c:url value="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/1024px-Mercedes-Logo.svg.png"/>" type="image/x-icon">
     <title>Excursion</title>
 </head>
 
 <body>
 <header>
     <ul class="menu">
-        <li><img src="<c:url value="/resources/css/museum.png"/>" alt="Travel bus" class="logo"></li>
+        <li><img src="<c:url value="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/1024px-Mercedes-Logo.svg.png"/>" alt="Travel bus" class="logo"></li>
         <c:url var="main" value="/user/"/>
         <li><a href="${main}">Main page</a></li>
         <c:url var="museums" value="/user/allMuseums"/>
@@ -46,6 +46,7 @@
                                 <p><strong>Description: </strong><i>${showpieces.get(0).showpiece_description}</i></p>
                                 <p><strong>Date of creation: </strong><i>${showpieces.get(0).showpiece_date_of_creation}</i></p>
                             </section>
+
                             <c:if test="${showpieces.size() > 1}">
                                 <hr class="hr1">
                                 <section>

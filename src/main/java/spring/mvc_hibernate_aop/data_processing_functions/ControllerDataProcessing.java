@@ -29,15 +29,15 @@ public class ControllerDataProcessing {
 
         //Удаление прошлой картинки
         if (museumLastName.length() > 1 && !Objects.equals(museumLastName, path)) {
-            File imageToDELETE = new File("C:\\Users\\x4pla\\GIT\\CursProject\\Museum\\src\\main\\webapp\\resources\\img\\" + museumLastName);
+            File imageToDELETE = new File("C:\\Users\\Asus\\Desktop\\GitMuseum\\Museum\\src\\main\\webapp\\resources\\img\\" + museumLastName);
             System.out.println("File: " + imageToDELETE + " | Status: DELETED");
             imageToDELETE.delete();
         }
 
         //Копирование файла из рабочего стола в папку ../resources/img
         try {
-            File source = new File("C:\\Users\\x4pla\\Desktop\\" + path);
-            File dest = new File("C:\\Users\\x4pla\\GIT\\CursProject\\Museum\\src\\main\\webapp\\resources\\img\\" + nameToSaveInDB);
+            File source = new File("C:\\Users\\Asus\\Desktop\\" + path);
+            File dest = new File("C:\\Users\\Asus\\Desktop\\GitMuseum\\Museum\\src\\main\\webapp\\resources\\img\\" + nameToSaveInDB);
             Files.copy(source.toPath(), dest.toPath());
         } catch (IOException fileNotFoundException) {
             fileNotFoundException.printStackTrace();

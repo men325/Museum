@@ -14,14 +14,14 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
   <link rel="stylesheet" href="<c:url value="/resources/css/excursion_style.css"/>">
-  <link rel="shortcut icon" href="<c:url value="/resources/css/museum.png"/>" type="image/x-icon">
+  <link rel="shortcut icon" href="<c:url value="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/1024px-Mercedes-Logo.svg.png"/>" type="image/x-icon">
   <title>Excursion</title>
 </head>
 
 <body>
 <header>
   <ul class="menu">
-    <li><img src="<c:url value="/resources/css/museum.png"/>" alt="Travel bus" class="logo"></li>
+    <li><img src="<c:url value="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/1024px-Mercedes-Logo.svg.png"/>" alt="Travel bus" class="logo"></li>
     <c:url var="main" value="/user/"/>
     <li><a href="${main}">Main page</a></li>
     <c:url var="museums" value="/user/allMuseums"/>
@@ -56,10 +56,10 @@
 <footer id="foot">
   <h3>Connect with us</h3>
   <span><a href="#"><img src="<c:url value="/resources/css/facebook.png"/>" alt="facebook"></a></span>
-  <span><a href="#"><img src="<c:url value="/resources/css/twitter.png"/>" alt="twitter"></a></span>
-  <span><a href="#"><img src="<c:url value="/resources/css/instagram.png"/>" alt="instagram"></a></span>
-  <span><a href="https://www.youtube.com/@britishmuseum"><img src="<c:url value="/resources/css/youtube.png"/>" alt="youtube"></a></span>
-  <span><a href="#"><img src="<c:url value="/resources/css/message.png"/>" alt="message"></a></span>
+  <span><a href="#"><img src="<c:url value="/resources/css/twitter-icon.webp"/>" alt="twitter"></a></span>
+  <span><a href="#"><img src="<c:url value="/resources/css/img.png"/>" alt="instagram"></a></span>
+  <span><a href="https://www.youtube.com/@britishmuseum"><img src="<c:url value="/resources/css/img_1.png"/>" alt="youtube"></a></span>
+  <span><a href="#"><img src="<c:url value="/resources/css/img_2.png"/>" alt="message"></a></span>
   <p>+380294235479</p>
   <hr>
   <div class="footer_menu">
